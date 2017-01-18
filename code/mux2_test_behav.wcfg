@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mux2_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mux2_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject db_ref_id="1" fp_name="/mux2_test/in0" type="array">
+      <obj_property name="ElementShortName">in0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mux2_test/in1" type="array">
+      <obj_property name="ElementShortName">in1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mux2_test/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/mux2_test/out" type="array">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+   </wvobject>
+</wave_config>
